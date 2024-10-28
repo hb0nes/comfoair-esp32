@@ -78,6 +78,7 @@ class Comfoair: public Component, public climate::Climate, public esphome::api::
     CMDIF(auto)
     CMDIF(manual)
     CMDIF(bypass_activate_1h)
+    CMDIF(bypass_activate_8h)
     CMDIF(bypass_deactivate_1h)
     CMDIF(bypass_auto)
     CMDIF(ventilation_supply_only)
